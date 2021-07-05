@@ -1,0 +1,289 @@
+@media screen and (max-width: 1400px){
+body {
+  font-family: roboto;
+  background-color:#0b192f ;
+  margin-top: 0px;
+  margin-right: 35px;
+  margin-left: 35px;
+}
+
+.post-1 {
+  background: #F3D250;
+  display: flex;
+  height: 300px;
+}
+.post-2 {
+  background: #8D8741;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.post-3 {
+  background: #659DBD;
+  display: flex;
+  height: 300px;
+}
+.post-4 {
+  background: #DAAD86;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+
+.home{
+  background-color: #162b4d;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+}
+.header-logo {
+  color: white;
+  width: 145px;
+  font-size: 30px;
+  font-weight: 300;
+  margin: 0;
+  padding-top: 15px;
+  padding-left: 30px;
+}
+.header-logo-text{
+  color: #932d52;
+  font-weight: lighter;
+}
+.menu-list{
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+
+}
+.nav-item{
+  padding-right: 50px;
+}
+.nav-item-link{
+  text-decoration: none;
+  display: inline-block;;
+  color: white;
+  font-size: 15px;
+  font-weight: 200;
+  cursor: pointer;
+  padding: 25px 30px;
+}
+.nav-item-link:hover{
+  background-color: #445570;
+  opacity: 50%;
+}
+.news{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 35px;
+}
+.news-container{
+  background-color: #fff;
+  font-weight: lighter;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.news-image{
+  width: 260px;
+}
+.news-2, .news-1{
+  width: 260px;
+}
+.news-heading{
+  font-size: 20px;
+  font-weight:lighter;
+}
+.news-text{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.news-button{
+  background-color: white;
+ border: 1px solid grey;
+  text-decoration: underline;
+}
+.post-image{
+  height: 100%;
+  width: 390px;
+}
+.datatime{
+  margin: 0;
+  padding: 0;
+}
+section{
+  width: 1040px;
+  height: 1700px;
+}
+.main-content-odd-1{
+  font-weight: lighter;
+  padding-left: 25px;
+}
+.main-content-odd-3{
+  font-weight: lighter;
+  padding-left: 25px;
+}
+.main-content-even{
+  font-weight: lighter;
+  padding-left: 25px;
+}
+.post-description{
+font-size: 15px;
+line-height: 2;
+width: 350px;
+}
+.post-title{
+  width: 260px;
+  font-weight: lighter;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+.post-title,.post-description{
+  position: relative;
+  top: -100px;
+} 
+.time-even{
+  display: flex;
+  flex-direction: column;
+  font-size: 45px;
+  width: 100px;
+  margin-top: 10px;
+}
+.time{
+  display: flex;
+  flex-direction: column;
+  margin-left: 510px;
+  font-size: 45px;
+  width: 100px;
+  margin-top: 10px;
+}
+.month{
+  font-size: 20px;
+}
+.main-content-even{
+  padding-left: 45px;
+}
+
+.post-description-even{
+font-size: 15px;
+line-height: 2;
+width: 350px;
+text-align: end;
+padding-left: 230px;
+}
+.post-title-even{
+  font-weight: lighter;
+  font-size: 30px;
+  margin-bottom: 0;
+  padding-left: 70px;
+  text-align: end;
+}
+.post-title-even,.post-description-even{
+  position: relative;
+  top: -100px;
+  right: 30px;
+} 
+.post-5-image{
+ width: 100%;
+}
+.container-5{
+  color: white;
+  font-weight: lighter;
+}
+.post-title-last{
+  font-weight: lighter;
+}
+.post-description-last{
+  font-weight: 400;
+  font-size: 12px;
+}
+.post-title-last, .post-description-last{
+  position: relative;
+  top: -250px;
+  width: 1030px;
+  padding-left: 20px;
+}
+footer{
+  background-color: #162b4d;
+  color: #344561;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+}
+footer p { 
+  white-space: pre;
+}
+.footer-text{
+  padding-top: 15px;
+  padding-right: 10px;
+  white-space: pre;
+}
+.post-image:hover{
+  opacity: 50%;
+  cursor: pointer;
+}
+.main-content-odd-1:hover{
+  opacity: 50%;
+  cursor: pointer;
+}
+section article:hover{
+  opacity: 50%;
+  cursor: pointer;
+}
+.news-button{
+    margin-left: 20px;
+    display: block;
+    border: 1.3px solid ;
+   padding: 10px 10px;
+   text-decoration: none;
+}
+.news-button:hover{
+  cursor: pointer;
+  border: none;
+  text-decoration: underline;
+}
+}
+@media (min-width:768px){
+  section{
+    margin: 0;
+    padding: 0;
+  }
+  section{
+    width: 50%;
+  }
+  body{
+    width: 768px;
+  }
+  .post-image{
+    width: 100px;
+    height: auto;
+  }
+  .home{
+    padding-top: 55px;
+    padding-bottom: 40px;
+  
+}
+.menu{
+  position: relative;
+    bottom: 40px;
+    left: 350px;
+}
+.burger{
+  background-color: #fff;
+  width: 20px;
+  height: 2px;
+  margin: 6px;
+}
+  .header-logo{
+    margin-right: auto;
+    margin-left: auto;
+  }
+  nav{
+    display: none;
+  }
+  .news-image{
+    width: 200px;
+  }
+.news-1, .news-2{
+  width: 200px;
+}
+}
